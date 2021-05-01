@@ -13,50 +13,50 @@
 // Gotham font needs to be loaded elsewhere
 
 createTyre = true;
-createWheel = false;
+createWheel = true;
 withStripe= true;
 withtext = true;
 
-tyreWidth=40;
-typeOuterRadius=45;
-typeInnerRadius=25;
-outerCurveX=5;
-outerCurveY=15;
-innerCurveX=3;
-innerCurveY=3;
+tyreWidth=20;
+typeOuterRadius=25;
+typeInnerRadius=15;
+outerCurveX=2;
+outerCurveY=6;
+innerCurveX=2;
+innerCurveY=2;
 
 stripeAndTextColor = [1,0.3,0]; // R,G,B
 
 // stripe control
-stripeWidth = 4;
-stripeCenterOffset = -1.5;
-stripeHeight = .5;
+stripeWidth = 2;
+stripeCenterOffset = 0;
+stripeHeight = 0.5;
 stripeStartAngleIfWithText = 33;
 stripeEndAngleIfWithText = 125;
 
 // text control, will intermit the stripe if used
 // will use same height as stripe
-firstTextRotationOffset = 1.5;
-secondTextRotationOffset = 0;
+firstTextRotationOffset = 12;
+secondTextRotationOffset = 20;
 font = "Pirelli:style=Regular";
 secondFont = "Gotham Ultra:style=Italic";
-fontSize = 6;
-secondFontSize = 8;
-firstText = "SKUBO";
+fontSize = 3.5;
+secondFontSize = 5;
+firstText = "";
 secondText = "P ZERO";
 
 // experimental: logo
-//toplogo = "pirelli.svg";
-//logoOffset = -1;
+toplogo = "pirelli.svg";
+logoOffset = -1;
 
 // wheel
 plateHeight = 10;
-holeRadius = 5;
-holeChamfer = 5;
-numberOfCutouts = 12;
+holeRadius = 3;
+holeChamfer = 3;
+numberOfCutouts = 18;
 innerCutoutOffset = 2;
-outerCutoutOffset = 1;
-cutoutdistance = 3;
+outerCutoutOffset = 0;
+cutoutdistance = 1;
 
 if (createTyre)
 {
@@ -82,9 +82,9 @@ if (createTyre)
          secondFontSize,
          firstText,
          secondText,
-         stripeAndTextColor
-    //     toplogo,
-    //     logoOffset
+         stripeAndTextColor,
+         toplogo,
+         logoOffset
     );
 }
 if (createWheel)
@@ -297,6 +297,9 @@ module tyre(innerR,
     {
         color(stripeColor)
         translate([0,centerRubber + logoOffset ,width])
+        rotate([0,0,180])
+        scale([-0.77, -0.77, 1])
+        linear_extrude(stripeHeight)
         logo(toplogo, centerRubber, 100, 50);
     }
 }
@@ -304,10 +307,10 @@ module tyre(innerR,
 function defined(a) = str(a) != "undef"; 
 
 
-//module logo(file, radius, width, height)
-//{
-//    import (file, center=true, dpi=96);
-//}
+module logo(file, radius, width, height)
+{
+    import (file, center=true, dpi=96);
+}
 
 module curvedText(txt, r=10, size=10, spacing=1, valign="baseline", font) {
   a = 180 * size * spacing / (PI * r);

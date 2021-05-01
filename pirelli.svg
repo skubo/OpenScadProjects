@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 13.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 14948)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.0" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="94.5px" height="20.8335px"
+	 viewBox="0 0 189 41.667" enable-background="new 0 0 189 41.667" xml:space="preserve">
+<switch>
+	<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+		<i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+		</i:pgfRef>
+	</foreignObject>
+	<g i:extraneous="self">
+		<g>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" points="27.682,40.922 39.181,40.922 39.181,20.136 27.682,20.136 
+				27.682,40.922 27.682,40.922 			"/>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" points="174.509,40.922 186.009,40.922 186.009,20.136 174.509,20.136 
+				174.509,40.922 174.509,40.922 			"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M180.879,1.166H1.167v39.662H21.07V15.913l159.809,0.004l0,0
+				c4.073,0,7.375-3.302,7.375-7.375C188.254,4.468,184.952,1.166,180.879,1.166L180.879,1.166L180.879,1.166L180.879,1.166z
+				 M158.802,10.887H21.07V6.183l137.732,0.013l0,0c1.296,0,2.346,1.05,2.346,2.346S160.098,10.887,158.802,10.887L158.802,10.887
+				L158.802,10.887L158.802,10.887z"/>
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M75.222,33.461c2.349-1.064,3.835-3.43,3.835-6.176
+				c0-3.742-2.943-7.15-7.956-7.15l0,0H47.44v20.787h11.499v-6.708h3.759l3.465,6.708h12.899L75.222,33.461L75.222,33.461
+				L75.222,33.461z M65.5,29.18h-6.561v-4.4l6.561,0.021l0,0c1.209,0,2.189,0.98,2.189,2.189S66.708,29.18,65.5,29.18L65.5,29.18
+				L65.5,29.18L65.5,29.18z"/>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" points="86.274,40.922 111.632,40.922 111.632,36.279 97.773,36.279 
+				97.773,33.219 111.632,33.219 111.632,28.208 97.773,28.208 97.773,25.148 111.632,25.148 111.632,20.136 86.274,20.136 
+				86.274,40.922 86.274,40.922 			"/>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" points="130.97,20.136 119.471,20.136 119.471,40.922 142.616,40.922 
+				142.616,36.279 130.97,36.279 130.97,20.136 130.97,20.136 			"/>
+			<polygon fill-rule="evenodd" clip-rule="evenodd" points="158.071,20.136 146.572,20.136 146.572,40.922 169.718,40.922 
+				169.718,36.279 158.071,36.279 158.071,20.136 158.071,20.136 			"/>
+		</g>
+	</g>
+</switch>
+
+</svg>
